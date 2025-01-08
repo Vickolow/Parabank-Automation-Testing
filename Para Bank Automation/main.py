@@ -96,7 +96,7 @@ def main():
         account_page.transfer_funds(amount="500", from_account="12345", to_account="67890")
         account_page.request_loan(amount="1000", down_payment="200", from_account="12345")
         account_page.logout()
-
+    #Quit the browser
     finally:
         driver.quit()
 
